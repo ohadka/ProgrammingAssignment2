@@ -8,7 +8,7 @@
 ## 3. Set the inverse Matrix values
 ## 4. Get the inverse Matrix values
 
-makeCacheMatrix <- function(x= numeric()) {
+makeCacheMatrix <- function(x= matrix()) {
   inv<-NULL
   set<-function(y)
   {
